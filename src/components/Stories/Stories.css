@@ -3,4 +3,7 @@
   flex-wrap: wrap;
   width: 60vw;
   height: 60vh;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10vh;
 }

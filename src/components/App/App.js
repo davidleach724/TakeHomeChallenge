@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <main>
-      <h1>I Read the News Today, Oh Boy</h1>
+      <h1 className='main-title'>I Read the News Today, Oh Boy</h1>
       {currentStories !== null && <Stories currentStories={ currentStories }/>}
     </main>
   )

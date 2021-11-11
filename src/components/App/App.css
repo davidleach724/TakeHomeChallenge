@@ -16,8 +16,16 @@ main {
   overflow: scroll;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .main-title {
   font-size: 7vh;
   margin-top: 5vh;
-  margin-left: 25%;
 }

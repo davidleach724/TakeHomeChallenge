@@ -8,6 +8,7 @@ const dayjs = require('dayjs');
 
 const App = () => {
   const [currentStories, setCurrentStories] = useState(null)
+  let [selectedStories, setSelectedStories] = useState(null)
   const [error, setError] = useState(null)
 
   useEffect(() => {
@@ -16,7 +17,11 @@ const App = () => {
     .catch(error => setError(error))
   }, [])
 
-
+  const handleChange = (selectedSection) => {
+    setSelectedStories(currentStories.results.filter(story =>
+      story.section === selectedSection
+    ))
+  }
 
   return (
     <main>
@@ -25,8 +30,9 @@ const App = () => {
         { currentStories !== null && <h2 className='tagline'>Today's News {dayjs(currentStories.last_updated).format('MMMM DD, YYYY')}</h2>}
       </div>
       {currentStories !== null &&
-      <DropDown currentStories={ currentStories.results }/>}
-      {currentStories !== null && <Stories currentStories={ currentStories.results }/>}
+      <DropDown currentStories={ currentStories.results } handleChange={ handleChange }/>}
+      {currentStories !== null && selectedStories === null && <Stories currentStories={ currentStories.results }/>}
+      {selectedStories !== null && <Stories currentStories={ selectedStories }/>}
       <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>
     </main>
   )

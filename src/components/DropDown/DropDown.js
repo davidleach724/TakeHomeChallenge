@@ -1,6 +1,6 @@
 const DropDown = ({ currentStories, handleChange}) => {
 
-  let newsCategories = currentStories.map((story, i) => {
+  let newsCategories = currentStories.map((story) => {
     return (story.section)
   })
 
@@ -8,12 +8,12 @@ const DropDown = ({ currentStories, handleChange}) => {
   
   newsCategories = categories.map(section => {
     return (
-      <option>{section}</option>
+      <option value={section}>{section}</option>
     )
   })
 
   return(
-    <select>
+    <select onChange={e => handleChange(e.target.value)}>
       {newsCategories}
     </select>  
   )

@@ -21,9 +21,9 @@ const App = () => {
       <div className="header">
         <h1 className='main-title'>I Read the News Today, Oh Boy</h1>
         { currentStories !== null && <h2 className='tagline'>Today's News {dayjs(currentStories.last_updated).format('MMMM DD, YYYY')}</h2>}
-        <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>
       </div>
       {currentStories !== null && <Stories currentStories={ currentStories.results }/>}
+      <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>
     </main>
   )
 }

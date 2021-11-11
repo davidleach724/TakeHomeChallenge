@@ -1,0 +1,12 @@
+.card-details {
+  width: 40vw;
+  height: 50vh;
+  position: absolute;
+  background-color: blueviolet;
+  right: 5vw;
+  
+}
+
+.larger-picture {
+  height: 30vh;
+}

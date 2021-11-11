@@ -6,7 +6,7 @@ const Stories = ({ currentStories }) => {
   const storyCards = currentStories.map(story => {
     return (
       <NewsCard
-        image={story.multimedia[0].url}
+        story={story}
       />
     )
   })

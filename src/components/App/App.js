@@ -28,10 +28,12 @@ const App = () => {
       <div className="header">
         <h1 className='main-title'>I Read the News Today, Oh Boy</h1>
         { currentStories !== null && <h2 className='tagline'>Today's News {dayjs(currentStories.last_updated).format('MMMM DD, YYYY')}</h2>}
+        <div className='dropdown'>
+          {currentStories !== null &&
+          <DropDown currentStories={ currentStories.results } handleChange={ handleChange }/>}
+          <button onClick={() => setSelectedStories(null)}>Show all sections</button>
+        </div>
       </div>
-      {currentStories !== null &&
-      <DropDown currentStories={ currentStories.results } handleChange={ handleChange }/>}
-      <button onClick={() => setSelectedStories(null)}>Show all sections</button>
       {currentStories !== null && selectedStories === null && <Stories currentStories={ currentStories.results }/>}
       {selectedStories !== null && <Stories currentStories={ selectedStories }/>}
       <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>

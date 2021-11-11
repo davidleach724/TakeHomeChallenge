@@ -35,3 +35,9 @@ h3 {
   right: 0;
   position: absolute;
 }
+
+.dropdown {
+  display: flex;
+  width: 30vw;
+  justify-content: space-evenly;
+}

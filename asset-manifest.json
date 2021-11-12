@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TakeHomeChallenge/static/css/main.b938827a.chunk.css",
+    "main.js": "/TakeHomeChallenge/static/js/main.71b204b2.chunk.js",
+    "main.js.map": "/TakeHomeChallenge/static/js/main.71b204b2.chunk.js.map",
+    "runtime-main.js": "/TakeHomeChallenge/static/js/runtime-main.a168a9e5.js",
+    "runtime-main.js.map": "/TakeHomeChallenge/static/js/runtime-main.a168a9e5.js.map",
+    "static/js/2.16ff3719.chunk.js": "/TakeHomeChallenge/static/js/2.16ff3719.chunk.js",
+    "static/js/2.16ff3719.chunk.js.map": "/TakeHomeChallenge/static/js/2.16ff3719.chunk.js.map",
+    "index.html": "/TakeHomeChallenge/index.html",
+    "static/css/main.b938827a.chunk.css.map": "/TakeHomeChallenge/static/css/main.b938827a.chunk.css.map",
+    "static/js/2.16ff3719.chunk.js.LICENSE.txt": "/TakeHomeChallenge/static/js/2.16ff3719.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/TakeHomeChallenge/static/media/paper.38f925d8.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a168a9e5.js",
+    "static/js/2.16ff3719.chunk.js",
+    "static/css/main.b938827a.chunk.css",
+    "static/js/main.71b204b2.chunk.js"
+  ]
+}

@@ -19,7 +19,7 @@
   height: 30vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .card-details {
     right: 2vw;
     width: 70vw;

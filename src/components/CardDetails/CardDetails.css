@@ -18,3 +18,24 @@
 .larger-picture {
   height: 30vh;
 }
+
+@media (max-width: 600px) {
+  .card-details {
+    right: 2vw;
+    width: 70vw;
+    top: 40%;
+  }
+
+  .story-title {
+    font-size: 1em;
+  }
+
+  .story-author {
+    font-size: .75em;
+  }
+  
+  .larger-picture {
+    max-width: 60vw;
+    height: auto;
+  }
+}

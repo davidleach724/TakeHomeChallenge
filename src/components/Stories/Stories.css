@@ -8,3 +8,13 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1200px) {
+  .stories-container {
+    display: grid;
+    grid-auto-flow: row;
+    width: 100vw;
+    padding-left: 1vw;
+    justify-content: flex-start;
+  }
+}

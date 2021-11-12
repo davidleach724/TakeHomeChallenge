@@ -36,7 +36,9 @@ const App = () => {
       </div>
       {currentStories !== null && selectedStories === null && <Stories currentStories={ currentStories.results }/>}
       {selectedStories !== null && <Stories currentStories={ selectedStories }/>}
-      <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>
+      <div className='footer'>
+        <h3>Copyright (c) 2021 The New York Times Company. All Rights Reserved.</h3>
+      </div>
     </main>
   )
 }

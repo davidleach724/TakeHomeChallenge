@@ -30,10 +30,12 @@ main {
   margin-top: 5vh;
 }
 
-h3 {
-  bottom: 0;
-  right: 0;
-  position: absolute;
+.footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .dropdown {

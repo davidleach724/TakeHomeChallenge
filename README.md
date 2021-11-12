@@ -9,7 +9,15 @@ This application pulls NYT's top stories and displays them in an artistic image 
 ![Screen Shot 2021-11-12 at 09 58 11](https://user-images.githubusercontent.com/81774070/141505533-cc5ddfd7-77ac-4865-a625-853ca17a527c.png)
 ![Screen Shot 2021-11-12 at 09 58 50](https://user-images.githubusercontent.com/81774070/141505547-7c110c66-ec60-4d64-b612-751492853b19.png)
 
+### Instructions for Running and Viewing 
 
+1. Clone this repo to your local computer  
+`git clone git@github.com:davidleach724/TakeHomeChallenge.git`
+2. Install NPM packages  
+`npm install`
+3. Run the app from your terminal  
+`npm start`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser  
 
 ### Wins
 - Creating a news application with a unique approach

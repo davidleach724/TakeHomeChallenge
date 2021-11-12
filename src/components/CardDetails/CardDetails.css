@@ -16,6 +16,5 @@
 }
 
 .larger-picture {
-  width: 55%;
-  max-height: 30vh;
+  height: 30vh;
 }
